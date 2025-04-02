@@ -1,0 +1,19 @@
+{
+  "name": "geolocation-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "geoip-lite": "^1.4.10",
+    "maxmind": "^4.3.24",
+    "nodemon": "^3.1.9"
+  }
+}
