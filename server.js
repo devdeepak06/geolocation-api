@@ -9,9 +9,7 @@ const server = http.createServer((req, res) => {
   }
 
   res.writeHead(200, { "Content-Type": "text/plain" });
-  const key = ip;
-  console.log(key)
-  // res.end(`Your IP address is: ${ip}`);
+  res.end(`Your IP address is: ${ip}`);
 });
 
 const PORT = process.env.PORT || 3000;
